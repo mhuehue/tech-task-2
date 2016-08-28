@@ -8,6 +8,11 @@ cmd to kick off the suite: (Please note the suite is broken at the moment due to
 $cucumber -f pretty
 ```
 
+Call forwarding related scenarios are tags with @important which can be executed by cmd:
+```sh
+$cucumber -f pretty --tags @important
+```
+
 As for rerun failed cases:
 ```sh
 cucumber -f pretty -f rerun --out rerun.txt || cucumber @rerun.txt
