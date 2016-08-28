@@ -1,0 +1,10 @@
+source "https://rubygems.org"
+
+ruby "2.2.4"
+gem "cucumber"
+gem "capybara"
+gem "selenium-webdriver"
+gem "rspec"
+gem "phantomjs"
+gem "poltergeist"
+gem "site_prism"
