@@ -1,13 +1,14 @@
 ##Amaysim Technical Task 2
 
 ###Instruction
-Ruby version: 2.24
+Ruby version: 2.2.4
 
 cmd to kick off the suite: (Please note the suite is broken at the moment due to bugs on the website)
 ```sh
 $cucumber -f pretty
 ```
 
+As for rerun failed cases:
 ```sh
 cucumber -f pretty -f rerun --out rerun.txt || cucumber @rerun.txt
 ```
